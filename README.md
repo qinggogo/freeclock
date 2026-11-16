@@ -21,6 +21,10 @@
 - 闹钟用 `AlarmManager` 精确调度，`BroadcastReceiver` 直接播放铃声与振动
 - minSdk 23 / targetSdk 35，Gradle 8.9 + AGP 8.7.3 + Kotlin 1.9.24
 
+## 页面展示
+
+![输入图片说明](imgbigger.png)
+
 ## 构建
 
 用 Android Studio 打开本目录，或用已安装的 Gradle：
