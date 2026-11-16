@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">翻页时钟</string>
+    <string name="settings">设置</string>
+    <string name="saver">屏保</string>
+    <string name="fullscreen">全屏</string>
+    <string name="wake_hint">轻触屏幕唤醒</string>
+    <string name="opt_24h">24 小时制</string>
+    <string name="opt_seconds">显示秒数</string>
+    <string name="opt_power">省电模式</string>
+    <string name="opt_keep_awake">屏幕常亮</string>
+    <string name="opt_saver_delay">屏保等待</string>
+    <string name="sec_15">15 秒</string>
+    <string name="sec_30">30 秒</string>
+    <string name="sec_60">60 秒</string>
+    <string name="never">永不</string>
+    <string name="close">关闭</string>
+    <string name="opt_saver_brightness">屏保亮度</string>
+    <string name="bright_low">微光 15%</string>
+    <string name="bright_medium">柔和 35%</string>
+    <string name="bright_high">明亮 60%</string>
+    <string name="alarm">闹钟</string>
+    <string name="alarm_set">设置闹钟</string>
+    <string name="alarm_turn_off">关闭闹钟</string>
+    <string name="alarm_on">已开启</string>
+    <string name="alarm_off">未开启</string>
+    <string name="alarm_cancel">取消</string>
+    <string name="alarm_confirm">确定</string>
+    <string name="alarm_enabled_label">启用闹钟</string>
+    <string name="theme_label">时钟主题</string>
+    <string name="theme_flip">翻页</string>
+    <string name="theme_digital">大号数字</string>
+    <string name="theme_minimal">极简</string>
+    <string name="font_label">数字字体</string>
+    <string name="font_condensed">纤窄（推荐·类参考图）</string>
+    <string name="font_condensed_bold">纤窄加粗</string>
+    <string name="font_sans_bold">标准黑体</string>
+    <string name="font_sans">标准常规</string>
+    <string name="font_serif">衬线</string>
+    <string name="font_mono">等宽</string>
+    <string name="timer_settings">计时设置（点按增减）</string>
+    <string name="opt_flip_sound">翻页声音</string>
+    <string name="test_flip_sound">试听翻页声</string>
+    <string name="opt_show_battery">显示电量</string>
+</resources>
