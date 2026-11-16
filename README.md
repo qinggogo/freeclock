@@ -32,4 +32,7 @@
 APK 输出在 `app/build/outputs/apk/debug/app-debug.apk`。
 
 > 注意：首次构建需 Android SDK 35 与 build-tools 35.0.1，并配置 `local.properties` 中的 `sdk.dir`（或在环境变量中设置 `ANDROID_HOME`）。
->>>>>>> 0f9a356 (Initial commit: FreeClock Android flip clock)
+
+## 许可证
+
+MIT License，详见 [LICENSE](LICENSE)。

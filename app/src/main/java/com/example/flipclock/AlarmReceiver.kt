@@ -39,6 +39,8 @@ class AlarmReceiver : BroadcastReceiver() {
             }
         }
         @Volatile var isRinging = false
+        // 兜底：最多响 60 秒自动停止，避免未能手动关闭时一直占用
+        private val autoStopRunnable = Runnable { stopRinging() }
 
         /** 立即响铃并显示"时间到"通知；供前台计时到点直接调用 */
         fun ringNow(context: Context, label: String) {
@@ -131,8 +133,6 @@ class AlarmReceiver : BroadcastReceiver() {
         handler.removeCallbacks(autoStopRunnable)
         handler.postDelayed(autoStopRunnable, 60_000L)
     }
-
-    private val autoStopRunnable = Runnable { stopRinging() }
 
     private fun notifyAlarm(context: Context) {
         val openIntent = Intent(context, AlarmRingingActivity::class.java).apply {
